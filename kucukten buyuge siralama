@@ -1,0 +1,21 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        int n;
+        Scanner input=new Scanner(System.in);
+        System.out.print("Dizinin boyutu  : ");
+        n=input.nextInt();
+        int  a =1;
+        int[] list = new int[n];
+        for (int i = 0; i< list.length; i++) {
+            System.out.print(a +". Elemani : ");
+            a+=1;
+            list[i]=input.nextInt();
+        }
+        Arrays.sort(list);
+        System.out.println("Siralama : "+Arrays.toString(list));
+        }
+    }
