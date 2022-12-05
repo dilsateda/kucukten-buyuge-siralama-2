@@ -1,0 +1,1 @@
+# kucukten-buyuge-siralama-2
